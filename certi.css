@@ -1,0 +1,38 @@
+.overlay 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: radial-gradient(circle, #15f4ee,  black);;
+}
+  
+.card:hover .overlay 
+{
+opacity: 0.8;
+}
+
+.text {
+color: white;
+font-size: 30px;
+font-weight: 700;
+font-family: 'Merriweather Sans', sans-serif;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+text-shadow: 0 0 10px #15f4ee;
+}
+
+.card:hover
+{
+    box-shadow: 0 2px 20px 0 inset, 0 2px 20px 0 #15f4ee;
+}

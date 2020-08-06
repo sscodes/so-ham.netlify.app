@@ -1,0 +1,162 @@
+body, html 
+{
+    height: 100%;
+}
+  
+.bg 
+{
+    /* The image used */
+    background-image: url("images/12640.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.temp
+{
+    border: 5px solid white;
+}
+
+.ntext2
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 28px;
+    text-shadow: 0 0 10px #15f4ee, 0 0 20px #15f4ee, 0 0 30px #15f4ee;
+}
+
+.ntext2:hover
+{
+    font-size: 30px;
+    text-shadow: 0 0 10px #15f4ee, 0 0 20px #15f4ee, 0 0 30px #15f4ee, 0 0 40px #15f4ee, 0 0 50px #15f4ee;
+    transition: all ease 0.7s;
+}
+
+.cvbtn
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    color: #15f4ee;
+    font-weight: 300;
+    border: 5px solid #15f4ee;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+    box-shadow: 0 2px 20px 0 inset, 0 2px 20px 0 #15f4ee;
+    text-shadow: 0 0 2px #15f4ee, 0 0 2px #15f4ee;
+}
+
+.cvbtn:hover
+{
+    box-shadow: 0 5px 50px 0 inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+
+
+.btmnav
+{
+    color: whitesmoke;
+    font-family: 'Baloo Da 2', cursive;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    text-shadow: 0 0 10px #15f4ee;
+}
+
+.cl:hover
+{
+    text-shadow: 0 0 10px #15f4ee, 0 0 20px #15f4ee,  0 0 30px #15f4ee, 0 0 40px #15f4ee;
+}
+
+.neon
+{
+    font-size: 62px;
+    margin: 0%;
+    padding: 0 20px;
+    color: white;
+    text-shadow: 0 0 20px #15f4ee;
+    font-family: 'Recursive', sans-serif;
+}
+
+.text2
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.abt
+{
+    text-shadow: 0 0 10px #15f4ee;
+}
+
+.acborder
+{
+    border-top: #15f4ee 5px solid;
+    border-right: #15f4ee 5px solid;
+    border-left: #15f4ee 5px solid;
+    border-bottom: #15f4ee 3px solid;
+    box-shadow: 0 2px 20px 0 inset, 0 2px 20px 0 #15f4ee;
+}
+
+.cd
+{
+    box-shadow: 0 2px 20px 0 inset, 0 2px 20px 0 #15f4ee;
+}
+
+.cd:hover
+{
+    box-shadow: 0 5px 50px 0 inset, 0 5px 50px 0 #15f4ee;
+}
+
+.textcb
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+}
+
+.textch
+{
+    font-family: 'Recursive', sans-serif;
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 1200px) 
+{
+    nav.navbarcustom
+    {
+        background-color: #292b2c;
+    }
+    
+}
+
+
+@media screen and (max-width: 992px) 
+{
+    div.namet 
+    {
+      font-size: 3em;
+    }
+}
+  
+@media screen and (max-width: 768px) 
+{
+    div.namet 
+    {
+        font-size: 2em;
+    }
+    p.abt2
+    {
+        font-size: 21px;
+    }
+}

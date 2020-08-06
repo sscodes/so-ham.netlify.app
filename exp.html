@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>So-ham</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <link href="css/timeline.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+    crossorigin="anonymous">
+    </script>
+    <script src="js/timeline.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f58878145b.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg">
+  <div id="loader"></div>
+    <!-- Top Nav Bar -->
+    <nav id="mainnav" class="navbar navbar-expand-xl navbar-dark bg-xl-transparent fixed-top py-3 navbarcustom">
+        <div>
+            <a href="resume.pdf" target="_blank" style="text-decoration: none;">
+                <div class="cvbtn">Download CV</div>
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class=" navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link ntext2" href="index.html">About Me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ntext2" href="#">Experince</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ntext2" href="edu.html">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ntext2" href="certi.html">Certifications</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ntext2" href="pro.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ntext2" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ntext2" href="cont.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Experience -->
+      <div class="container py-5">
+        <div class="row pt-5 pb-1">
+          <div class="col-12 py-3 ">
+            <h1 class="text-center neon display-4">
+              <span>Experience</span></h1>
+          </div>
+          
+        </div>
+        <div class="col-12 pt-5">
+          <div class="accordion acborder" id="accordionExample">
+            <div class="card bg-transparent cd">
+              <div class="card-header" id="headingOne" style="border-bottom: #15f4ee 2px solid;">
+                <h2 class="mb-0">
+                  <a class="text-white textch" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none;">
+                    <h4>Pical Networks Pvt. Ltd.</h4>
+                    <h5>Machine Learning Engineer<span style="float: right;">June 2020 - Present</span></h5>
+                  </a>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body mt-n2 mb-n4 text-white textcb">
+                  <ul>
+                    <li>Facial Feature extraction.</li>
+                    <li>Deep learning Multi-label (classification+regression) modeling.</li>
+                    <li>Buisness Analytics.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-transparent cd">
+              <div class="card-header" id="headingTwo" style="border-bottom: #15f4ee 2px solid; border-top: #15f4ee 2px solid;">
+                <h2 class="mb-0">
+                  <a class="text-white textch" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none;">
+                    <h4>CodeSpeedy Technology Private Limited</h4>
+                    <h5>Machine Learning Intern<span style="float: right;">June 2020 - Present</span></h5>
+                  </a>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body mt-n2 mb-n4 text-white textcb">
+                  <ul>
+                    <li>Worked on implementation of Big Data tools such as Apache Spark to make educational projects.</li>
+                    <li>Worked on image processing tasks for classification from scratch using Tensorflow.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-transparent cd">
+              <div class="card-header text-white" id="headingThree" style="border-bottom: #15f4ee 2px solid; border-top: #15f4ee 2px solid;">
+                <h2 class="mb-0">
+                  <a class="text-white textch" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none;">
+                    <h4>JPMorgan Chase & Co.</h4>
+                    <h5>Software Engineering Virtual Experience<span style="float: right;">Apr 2020 - Apr 2020</span></h5>
+                  </a>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body mt-n2 mb-n4 text-white textcb">
+                  <ul>
+                    <li>Worked on interface with a stock price data feed and set up your system for analysis of the data.</li>
+                    <li>Worked on implement the Perspective open source code in preparation for data visualization.</li>
+                    <li>Worked on use Perspective to create the chart for the trader’s dashboard.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Bottom Navbar-->
+      <nav class="navbar navbar-expand-lg bg-xl-transparent border-0 mt-n3 fixed-bottom border-top border border-white navbarcustom">
+        <div class="mx-auto text-center btmnav">
+          &copy; July, 2020. All rights reserved.<br/>
+          Developed by <a href="file:///home/sscodes/Documents/Web%20Dev/Portfolio/index.html" target="_blank" class="cl" style="color: white; text-decoration: none;">Sanket Sarkar</a> with <i class="fas fa-heart" style="color: red;"></i> & <i class="fas fa-coffee" style="color: burlywood;"></i>.      
+        </div>
+      </nav>
+
+      <script src="typed.js"></script>
+      <script src="custom.js"></script>
+</body>
+</html>

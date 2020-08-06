@@ -1,0 +1,8 @@
+#loader
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000 url('images/Infinity-2.2s-264px.gif') no-repeat center;
+    z-index: 99999;
+}

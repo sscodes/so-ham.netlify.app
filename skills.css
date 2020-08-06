@@ -1,0 +1,65 @@
+.cih
+{
+    color: white;
+    font-weight: 700;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+.sl
+{
+    color: white;
+    font-weight: 700;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.skl
+{
+    border: 4px white solid;
+}
+.skb
+{
+    border: 2px #15f4ee solid ;
+}
+
+
+.tabsfont
+{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 40px;
+}
+
+a.nav-item.nav-link.text-light.active
+{
+    border: transparent;
+    border-bottom: 10px solid #15f4ee;
+    background-color: transparent;
+}
+a.nav-item.nav-link.text-light:hover
+{
+    border: transparent;
+    border-bottom: 10px solid #15f4ee;
+    transition: all ease 0.7s;
+}
+
+
+.tb
+{
+    border: 5px solid #15f4ee;
+    text-shadow: 0 0 10px #15f4ee;
+    box-shadow: 0 5px 50px 0 inset, 0 2px 20px 0 #15f4ee;
+}
+
+.tc
+{
+    border: 5px solid #15f4ee;
+    text-shadow: 0 0 5px #15f4ee;
+    box-shadow:  0 10px 100px 0 black;
+    border-bottom-left-radius: 75%;
+    border-bottom-right-radius: 75%;
+    height: 300px;
+    font-family: 'Kanit', sans-serif;
+}

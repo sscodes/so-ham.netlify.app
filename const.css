@@ -1,0 +1,28 @@
+.display-6
+{
+    color: white;
+    font-size: 37px;
+    text-shadow: 0 0 10px #15f4ee;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.mail:hover
+{
+    color: #15f4ee;
+    text-shadow: 0 0 10px #15f4ee, 0 0 20px #15f4ee;
+}
+
+.icons
+{
+    color: white; 
+    text-decoration: none;
+    font-size: 45px;
+}
+
+.icons:hover
+{
+    color: #15f4ee;
+    text-decoration: none;
+    font-size: 55px;
+    transition: all ease 0.7s;
+}
