@@ -29,7 +29,7 @@
 .tabsfont
 {
     font-family: 'Do Hyeon', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 a.nav-item.nav-link.text-light.active
@@ -58,8 +58,6 @@ a.nav-item.nav-link.text-light:hover
     border: 5px solid #15f4ee;
     text-shadow: 0 0 5px #15f4ee;
     box-shadow:  0 10px 100px 0 black;
-    border-bottom-left-radius: 75%;
-    border-bottom-right-radius: 75%;
     height: 300px;
     font-family: 'Kanit', sans-serif;
 }
