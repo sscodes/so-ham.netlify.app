@@ -27,7 +27,7 @@ body, html
 .ntext2
 {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 28px;
+    font-size: 23px;
     text-shadow: 0 0 10px #15f4ee, 0 0 20px #15f4ee, 0 0 30px #15f4ee;
 }
 
@@ -43,8 +43,8 @@ body, html
     font-family: 'Merriweather Sans', sans-serif;
     position: relative;
     text-align: center;
-    padding: 15px;
-    font-size: 25px;
+    padding: 13px;
+    font-size: 20px;
     color: #15f4ee;
     font-weight: 300;
     border: 5px solid #15f4ee;
@@ -78,7 +78,7 @@ body, html
 
 .neon
 {
-    font-size: 62px;
+    font-size: 55px;
     margin: 0%;
     padding: 0 20px;
     color: white;
@@ -90,7 +90,7 @@ body, html
 {
     font-family: 'Merriweather Sans', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .abt
@@ -120,7 +120,7 @@ body, html
 .textcb
 {
     font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 700;
+    font-size: 19px;
 }
 
 .textch
@@ -149,7 +149,7 @@ body, html
     }
 }
   
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 992px) 
 {
     div.namet 
     {
@@ -158,5 +158,13 @@ body, html
     p.abt2
     {
         font-size: 21px;
+    }
+    div.spci
+    {
+        margin-top: 150px;
+    }
+    div.spct
+    {
+        font-size: 27px;
     }
 }
